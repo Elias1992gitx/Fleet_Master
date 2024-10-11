@@ -8,7 +8,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from '@/components/ui/tooltip'
-import Link from 'next/link'
+// import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { cn } from '@/lib/utils'
 import { AnimatePresence, motion } from 'framer-motion'
@@ -28,7 +28,6 @@ import {
   Wrench,
 } from 'lucide-react'
 import { useEffect, useState } from 'react'
-import { routeModule } from 'next/dist/build/templates/app-page'
 
 type Star = { x: number; y: number; size: number; duration: number }
 
