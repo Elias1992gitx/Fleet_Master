@@ -1,0 +1,20 @@
+{
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "rules": {},
+  "overrides": [
+    {
+      "files": ["src/app/**/*.tsx"],
+      "rules": {
+        "@typescript-eslint/no-unused-vars": "off",
+        "react-hooks/rules-of-hooks": "off",
+        "react/no-unescaped-entities": "off"
+      }
+    },
+    {
+      "files": ["src/components/**/*.tsx"],
+      "rules": {
+        "@typescript-eslint/no-empty-interface": "off"
+      }
+    }
+  ]
+}
